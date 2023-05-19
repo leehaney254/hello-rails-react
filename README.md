@@ -3,11 +3,10 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 hello-rails-back-end ](#-hello-rails-back-end-)
+- [📖 hello-rails-react ](#-hello-rails-react-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-    - [Link to front-end ](#link-to-front-end-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -21,15 +20,20 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 hello-rails-back-end <a name="about-project"></a>
+# 📖 hello-rails-react <a name="about-project"></a>
 
-**hello-rails-back-end** is an application that works as the backend for a greetings application. It generates random greetings on every request. It can be modified for a variety of purposes
+**hello-rails-react** is an application that works as with both react and rails on one application.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-
+<details>
+<summary>Client</summary>
+  <ul>
+    <li><a href="https://legacy.reactjs.org/docs/getting-started.html">React</a></li>
+  </ul>
+</details>
 <details>
 <summary>Server</summary>
   <ul>
@@ -49,12 +53,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Link to front-end <a name="key-features"></a>
-
-- You can find the front-end app [here.](https://github.com/leehaney254/hello-react-front-end)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -64,8 +62,8 @@ To get a local copy up and running, follow these steps:
 To get a local copy up and running, follow these steps:
 - Create a local directory where you can clone the project
 - Clone the project to your directory by running
-  - `https://github.com/leehaney254/hello-rails-back-end.git`
-- Run `Bundle install`
+  - `https://github.com/leehaney254/hello-rails-react.git`
+- Run `Bundle install` then `npm install`
 - Create a .env file and add values for `POSTGRES_USERNAME and POSTGRES_PASSWORD`
 - Run `rails db:create db:migrate db:seed`
 - Run  `rails s`
@@ -84,7 +82,7 @@ Clone this repository to your desired folder:
 
 - Create a local directory where you can clone the project
 - Clone the project to your directory by running
-  - `git clone https://github.com/leehaney254/hello-rails-back-end.git`
+  - `git clone https://github.com/leehaney254/hello-rails-react.git`
 
 ### Usage
 
